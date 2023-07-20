@@ -68,3 +68,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+const Container = styled.div`
+${device.mobile} {
+width: 70vw;
+position: relative;
+top: -168px;
+right: -125px;
+overflow: hidden;
+}
+${device.tablet} {
+width: 75vw;
+
+    margin: 0 auto;
+    position: relative;
+    top: -168px;
+    right: -87px;
+    overflow: hidden;
+
+}
+${device.desktop} {
+width: 100%;
+max-width: 672px;
+margin: 0 auto;
+position: relative;
+top: -158px;
+right: -23px;
+}
+`;
