@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-// import { device } from "./utils/mixin";
 
 export const GlobalStyle = createGlobalStyle`
 *,
@@ -33,11 +32,6 @@ body {
 }
 }
 
-
-
- 
-
-
 h1,
 h2,
 h3,
@@ -61,8 +55,4 @@ img {
   width: 100%;
 }
 
-
-
-
- 
 `;
