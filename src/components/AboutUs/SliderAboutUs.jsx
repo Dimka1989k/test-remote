@@ -41,8 +41,7 @@ const SliderStyled = styled(Slider)`
     top: 0px;
 
     ${device.desktop} {
-      position: relative;
-      top: 0px;
+      top: 32px;
     }
   }
 
